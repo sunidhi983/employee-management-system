@@ -21,16 +21,28 @@ Technologies Used
 - MySQL
 - Maven
 - REST API
-- Postma
+- Postman
 
 
 API Endpoints
 
- Method        Endpoint               Description 
- POST       `/api/employees`        Add an employee 
- GET        `/api/employees`        Get all employees 
- PUT        `/api/employees/{id}`   Update an employee 
- DELETE     `/api/employees/{id}`   Delete an employee 
+The APIs can be tested using **Postman**.
+
+| HTTP Method | Endpoint | Description |
+|---|---|---|
+| POST | `/api/employees` | Add a new employee |
+| GET | `/api/employees` | Retrieve all employees |
+| PUT | `/api/employees/{id}` | Update an existing employee |
+| DELETE | `/api/employees/{id}` | Delete an employee |
+
+### Testing with Postman
+
+1. Start the Spring Boot application.
+2. Open Postman.
+3. Select the required HTTP method.
+4. Enter the API endpoint, for example, `http://localhost:8080/api/employees`.
+5. For POST and PUT requests, select **Body → raw → JSON** and provide the employee data.
+6. Click **Send** and check the response.
 
 
 
