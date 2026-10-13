@@ -60,7 +60,10 @@ validation, DTOs, and exception handling.
 Screenshots
 
 1. Get All Employees
+![Get All Employees](./screenshots/get-all-employees.png)
 
 2. Add Employee
+![Add Employee](./screenshots/add-employee.png)
 
 3. Validation Error
+![Validation Error](./screenshots/validation-error.png)
