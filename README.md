@@ -23,17 +23,16 @@ Technologies Used
 - REST API
 - Postman
 
-
 API Endpoints
 
 The APIs can be tested using **Postman**.
 
-| HTTP Method | Endpoint | Description |
-|---|---|---|
-| POST | `/api/employees` | Add a new employee |
-| GET | `/api/employees` | Retrieve all employees |
-| PUT | `/api/employees/{id}` | Update an existing employee |
-| DELETE | `/api/employees/{id}` | Delete an employee |
+| HTTP Method | Endpoint              | Description                 |
+|-------------|-----------------------|-----------------------------|
+| POST        | `/api/employees`      | Add a new employee          |
+| GET         | `/api/employees`      | Retrieve all employees      |
+| PUT         | `/api/employees/{id}` | Update an existing employee |
+| DELETE      | `/api/employees/{id}` | Delete an employee          |
 
 ### Testing with Postman
 
@@ -44,8 +43,6 @@ The APIs can be tested using **Postman**.
 5. For POST and PUT requests, select **Body → raw → JSON** and provide the employee data.
 6. Click **Send** and check the response.
 
-
-
 How to Run
 
 1. Install Java and MySQL.
@@ -55,7 +52,15 @@ How to Run
 
 The application runs on `http://localhost:8080` by default.
 
-
-
 Learning Outcomes
-This project demonstrates REST API development, CRUD operations, dependency injection, database integration, input validation, DTOs, and exception handling.
+This project demonstrates REST API development, CRUD operations, dependency injection, database integration, input
+validation, DTOs, and exception handling.
+
+
+Screenshots
+
+1. Get All Employees
+
+2. Add Employee
+
+3. Validation Error
